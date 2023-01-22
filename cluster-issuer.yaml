@@ -1,0 +1,7 @@
+apiVersion: awspca.cert-manager.io/v1beta1
+kind: AWSPCAClusterIssuer
+metadata:
+  name: aws-pca-root-ca
+spec:
+  arn: <arn>
+  region: <region>
